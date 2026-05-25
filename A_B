@@ -1,0 +1,14 @@
+a = input("Ingrese la palabra A: ")
+b = input("Ingrese la palabra B: ")
+
+print("Antes del intercambio:")
+print("A = ", a)
+print("B = ", b)
+
+temporal = a
+a = b
+b = temporal
+
+print("Después del intercambio:")
+print("A = ", a)
+print("B = ", b)
